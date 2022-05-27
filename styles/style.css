@@ -95,7 +95,7 @@ header .perfil {
 section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80vh;
+  grid-template-rows: 90vh;
   grid-gap: 1.8rem;
   align-content: center;
   width: 70rem;
@@ -166,4 +166,23 @@ section aside .line {
   border-top: 1px solid #bbbbbb;
   margin: 1.3rem auto;
   width: 11.8rem;
+}
+
+section .profile .list-perfil {
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+}
+
+section .profile .list-perfil ul li {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+section .profile .list-perfil ul li+li {
+  margin-top: 1.8rem;
 }
