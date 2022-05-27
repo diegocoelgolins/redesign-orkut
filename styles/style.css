@@ -11,6 +11,7 @@
   padding: 0;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -58,7 +59,7 @@ form input {
 }
 
 form input:focus {
-  border: 1px solid #bbbbbb;
+  box-shadow: 0 0 1em #bbbbbb;
 }
 
 form a img {
