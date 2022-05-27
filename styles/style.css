@@ -106,6 +106,7 @@ section .profile {
   background: white;
   grid-column-start: 1;
   grid-column-end: 2;
+  height: 37.5rem;
   border: 0;
   border-radius: 1.8rem;
 }
@@ -185,4 +186,9 @@ section .profile .list-perfil ul li {
 
 section .profile .list-perfil ul li+li {
   margin-top: 1.8rem;
+}
+
+main h2 {
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
 }
