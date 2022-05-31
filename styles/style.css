@@ -192,3 +192,38 @@ main h2 {
   margin-top: 2.5rem;
   margin-left: 2.5rem;
 }
+
+main .qualities {
+  display: flex;
+  justify-content: space-between;
+  width: 26.2rem;
+  margin: 40px auto;
+}
+
+main .qualities p {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #888888;
+  margin-bottom: 0.5rem;
+}
+
+main .qualities-testimonial span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: 600;
+}
+
+main .qualities-fans span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: 600;
+}
+
+.line1 {
+  width: 26.2rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #d3d3d3;
+}
