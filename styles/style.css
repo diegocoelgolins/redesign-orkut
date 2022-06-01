@@ -188,16 +188,19 @@ section .profile .list-perfil ul li+li {
   margin-top: 1.8rem;
 }
 
+main {
+  height: 37.5rem;
+  padding: 2.5rem;
+}
+
 main h2 {
-  margin-top: 2.5rem;
-  margin-left: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 main .qualities {
   display: flex;
   justify-content: space-between;
-  width: 26.2rem;
-  margin: 40px auto;
+  /*margin-bottom: 2.5rem;*/
 }
 
 main .qualities p {
@@ -224,6 +227,134 @@ main .qualities-fans span {
 
 .line1 {
   width: 26.2rem;
-  margin: 0 auto;
+  margin: 2.5rem auto;
   border-bottom: 1px solid #d3d3d3;
+}
+
+.personal-data .sobre {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.personal-data .sobre span {
+  font-size: 14px;
+  line-height: 21px;
+  color: #888888;
+}
+
+.personal-data .sobre p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.personal-data .idade {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.personal-data .idade span {
+  font-size: 14px;
+  line-height: 21px;
+  color: #888888;
+}
+
+.personal-data .idade p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.personal-data .orientacao {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.personal-data .orientacao span {
+  font-size: 14px;
+  line-height: 21px;
+  color: #888888;
+}
+
+.personal-data .orientacao p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.personal-data .relacionamento {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.personal-data .relacionamento span {
+  font-size: 14px;
+  line-height: 21px;
+  color: #888888;
+}
+
+.personal-data .relacionamento p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.personal-data .cidade {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.personal-data .cidade span {
+  font-size: 14px;
+  line-height: 21px;
+  color: #888888;
+}
+
+.personal-data .cidade p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.personal-data .interesse {
+  display: flex;
+  margin-right: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.personal-data .interesse span {
+  font-size: 14px;
+  line-height: 21px;
+  margin-right: 2.5rem;
+  color: #888888;
+}
+
+.personal-data button {
+  width: 90px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.personal-data .destak {
+  width: 90px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  background-color: #ED2590;
+  color: #ffffff;
+}
+
+.personal-data button+button {
+  margin-left: 10px;
 }
